@@ -14,7 +14,7 @@ enum TipoProducto{
 public class Producto {
     private String nombre;
     private int precio;
-    TipoProducto tipo;
+    private TipoProducto tipo;
 
     public Producto(String nombre, int precio, TipoProducto tipo) {
         this.nombre = nombre;
